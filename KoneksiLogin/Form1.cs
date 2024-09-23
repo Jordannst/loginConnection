@@ -54,6 +54,7 @@ namespace KoneksiLogin
                         {
                             formMain frmMain = new formMain();
                             frmMain.Show();
+                            this.Hide();
                         }
                         else
                         {
