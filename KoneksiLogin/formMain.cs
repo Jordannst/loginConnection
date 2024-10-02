@@ -258,6 +258,12 @@ namespace KoneksiLogin
             this.Hide();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            formPengguna formpengguna = new formPengguna();
+            formpengguna.Show();
+        }
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
