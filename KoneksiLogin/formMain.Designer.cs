@@ -46,6 +46,7 @@
             this.CBLevel = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnFilter = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -207,7 +208,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(745, 323);
+            this.button1.Location = new System.Drawing.Point(844, 321);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 38);
             this.button1.TabIndex = 18;
@@ -215,11 +216,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnFilter
+            // 
+            this.btnFilter.Location = new System.Drawing.Point(648, 321);
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.Size = new System.Drawing.Size(139, 38);
+            this.btnFilter.TabIndex = 19;
+            this.btnFilter.Text = "Filter";
+            this.btnFilter.UseVisualStyleBackColor = true;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
+            // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1359, 746);
+            this.Controls.Add(this.btnFilter);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.CBLevel);
@@ -267,5 +279,6 @@
         private System.Windows.Forms.ComboBox CBLevel;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFilter;
     }
 }

@@ -44,3 +44,4 @@ C:\Unklabb\VisualProgramming\KoneksiLogin\KoneksiLogin\obj\x64\Debug\KoneksiLogi
 C:\Unklabb\VisualProgramming\KoneksiLogin\KoneksiLogin\obj\x64\Debug\KoneksiL.D9A5B2EF.Up2Date
 C:\Unklabb\VisualProgramming\KoneksiLogin\KoneksiLogin\obj\x64\Debug\KoneksiLogin.exe
 C:\Unklabb\VisualProgramming\KoneksiLogin\KoneksiLogin\obj\x64\Debug\KoneksiLogin.pdb
+C:\Unklabb\VisualProgramming\KoneksiLogin\KoneksiLogin\obj\x64\Debug\KoneksiLogin.Akun.resources

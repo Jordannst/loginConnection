@@ -264,6 +264,13 @@ namespace KoneksiLogin
             formpengguna.Show();
         }
 
+        private void btnFilter_Click(object sender, EventArgs e)
+        {
+            Akun akun = new Akun();
+            akun.Show();
+            
+        }
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
